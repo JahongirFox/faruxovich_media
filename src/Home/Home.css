@@ -191,7 +191,7 @@ a {
   }
 }
 
-@media (max-width: 445px) {
+@media (max-width: 447px) {
   .Text {
     font-size: 15px;
   }
@@ -211,7 +211,7 @@ a {
   }
 
   .cardflex p {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .cardflex {
@@ -220,7 +220,7 @@ a {
   }
 
   .cardflex span {
-    font-size: 18px;
+    font-size: 16px;
     margin-left: 30px;
   }
 
@@ -253,18 +253,60 @@ a {
   }
 
   .cardflex p {
-   font-size: 15px;
+   font-size: 13px;
   }
 
   .cardflex span {
-    font-size: 15px;
+    font-size: 13px;
     margin-left: 30px;
   }
 
   .responsive-text {
     max-width: 60%;
     text-align: left;
-    font-size: 10px;
+    font-size: 11px !important;
+  }
+
+  .cardflex {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .icon-small {
+   width: 30px;
+  }
+}
+
+@media (max-width: 330px) {
+  .Text {
+    font-size: 13px;
+  }
+
+  .About-p {
+    font-size: 11px;
+  }
+
+  .img-card p {
+    font-size: 14px;
+  }
+
+  .icon {
+    width: 32px;
+  }
+
+  .cardflex p {
+   font-size: 11px;
+  }
+
+  .cardflex span {
+    font-size: 13px;
+    margin-left: 30px;
+  }
+
+  .responsive-text {
+    max-width: 60%;
+    text-align: left;
+    font-size: 10px !important;
   }
 
   .cardflex {
@@ -307,7 +349,7 @@ a {
   }
 
   .cardflex>p{
-    font-size: 13px;
+    font-size: 11px;
   }
 
   .icon-small {
@@ -350,7 +392,7 @@ a {
   }
 
   .cardflex>p{
-    font-size: 13px;
+    font-size: 11px;
   }
   
   .icon-small {
@@ -389,7 +431,7 @@ a {
   }
 
   .cardflex p{
-    font-size: 13px;
+    font-size: 11px;
   }
   
   .icon-small {
@@ -428,7 +470,7 @@ a {
   }
 
   .cardflex p{
-    font-size: 12px;
+    font-size: 10px;
   }
   
   .icon-small {
@@ -437,7 +479,7 @@ a {
   }
 }
 
-@media (max-width: 299px) {
+/* @media (max-width: 299px) {
   .Text {
     font-size: 13px;
   }
@@ -474,4 +516,4 @@ a {
    width: 17px;
    margin-right: 30px;
   }
-}
+} */
