@@ -5,7 +5,7 @@ import Telegram from './telegram.png'
 import car from './car.PNG'
 import Instagram from './social.png'
 import signup from './writing.png'
-import carpng from './car-png.jpg'
+import carpng from './car2.jpg'
 function Home() {
     return(
     <div className="Home-Container">
@@ -63,7 +63,8 @@ function Home() {
               </div>
             </div>
           </a>
-        </div>
+
+      </div>
       </div>
     </div>
     )
